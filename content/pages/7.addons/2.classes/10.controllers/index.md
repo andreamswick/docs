@@ -76,6 +76,8 @@ If, for example, the method declares only one parameter, the `123` will simply b
 
 Note that the `/!/` in the URL is customizable, so when outputting form actions, you can use the [$this->actionUrl()](/addons/helpers#actionUrl) helper.
 
+Note that forms in the front-end will require a [csrf_field](https://docs.statamic.com/variables/csrf_field#main).
+
 ### Control Panel {#control-panel}
 
 We can route to the controller action above by editing the routes array in our addon's `routes.yaml` file.
